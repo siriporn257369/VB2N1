@@ -78,6 +78,8 @@
 
     Private Sub lblBSky_Click(sender As Object, e As EventArgs) Handles lblBSky.Click
         txtInput.BackColor = Color.SkyBlue
+
+
     End Sub
 
     Private Sub btnUp_Click(sender As Object, e As EventArgs) Handles btnUp.Click
