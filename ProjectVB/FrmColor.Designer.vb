@@ -27,29 +27,29 @@ Partial Class FrmColor
         Me.btnDown = New System.Windows.Forms.Button()
         Me.cboSize = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.lblFRad = New System.Windows.Forms.Label()
-        Me.lblFBlue = New System.Windows.Forms.Label()
-        Me.lblFGreen = New System.Windows.Forms.Label()
-        Me.lblFViotet = New System.Windows.Forms.Label()
-        Me.lblFBack = New System.Windows.Forms.Label()
-        Me.lblFOrange = New System.Windows.Forms.Label()
-        Me.lblFYellow = New System.Windows.Forms.Label()
-        Me.lblFBrown = New System.Windows.Forms.Label()
-        Me.lblFwhite = New System.Windows.Forms.Label()
         Me.lblFSky = New System.Windows.Forms.Label()
+        Me.lblFwhite = New System.Windows.Forms.Label()
+        Me.lblFBrown = New System.Windows.Forms.Label()
+        Me.lblFYellow = New System.Windows.Forms.Label()
+        Me.lblFOrange = New System.Windows.Forms.Label()
+        Me.lblFBack = New System.Windows.Forms.Label()
+        Me.lblFViotet = New System.Windows.Forms.Label()
+        Me.lblFGreen = New System.Windows.Forms.Label()
+        Me.lblFBlue = New System.Windows.Forms.Label()
+        Me.lblFRad = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.lblBOrange = New System.Windows.Forms.Label()
+        Me.lblBSky = New System.Windows.Forms.Label()
         Me.lblBRad = New System.Windows.Forms.Label()
+        Me.lblBwhie = New System.Windows.Forms.Label()
         Me.lblBBlue = New System.Windows.Forms.Label()
+        Me.lblBBrown = New System.Windows.Forms.Label()
         Me.lblBGreen = New System.Windows.Forms.Label()
+        Me.lblBYellow = New System.Windows.Forms.Label()
         Me.lblBViolet = New System.Windows.Forms.Label()
         Me.lblBBack = New System.Windows.Forms.Label()
-        Me.lblBYellow = New System.Windows.Forms.Label()
-        Me.lblBBrown = New System.Windows.Forms.Label()
-        Me.lblBwhie = New System.Windows.Forms.Label()
-        Me.lblBSky = New System.Windows.Forms.Label()
-        Me.lblBOrange = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -87,6 +87,7 @@ Partial Class FrmColor
         '
         'cboSize
         '
+        Me.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSize.Font = New System.Drawing.Font("Minion Pro", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSize.FormattingEnabled = True
         Me.cboSize.IntegralHeight = False
@@ -116,6 +117,96 @@ Partial Class FrmColor
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "ForeColor"
         '
+        'lblFSky
+        '
+        Me.lblFSky.BackColor = System.Drawing.Color.SkyBlue
+        Me.lblFSky.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFSky.Location = New System.Drawing.Point(247, 87)
+        Me.lblFSky.Name = "lblFSky"
+        Me.lblFSky.Size = New System.Drawing.Size(54, 48)
+        Me.lblFSky.TabIndex = 0
+        '
+        'lblFwhite
+        '
+        Me.lblFwhite.BackColor = System.Drawing.Color.White
+        Me.lblFwhite.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFwhite.Location = New System.Drawing.Point(187, 87)
+        Me.lblFwhite.Name = "lblFwhite"
+        Me.lblFwhite.Size = New System.Drawing.Size(54, 48)
+        Me.lblFwhite.TabIndex = 0
+        '
+        'lblFBrown
+        '
+        Me.lblFBrown.BackColor = System.Drawing.Color.Brown
+        Me.lblFBrown.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFBrown.Location = New System.Drawing.Point(127, 87)
+        Me.lblFBrown.Name = "lblFBrown"
+        Me.lblFBrown.Size = New System.Drawing.Size(54, 48)
+        Me.lblFBrown.TabIndex = 0
+        '
+        'lblFYellow
+        '
+        Me.lblFYellow.BackColor = System.Drawing.Color.Yellow
+        Me.lblFYellow.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFYellow.Location = New System.Drawing.Point(67, 87)
+        Me.lblFYellow.Name = "lblFYellow"
+        Me.lblFYellow.Size = New System.Drawing.Size(54, 48)
+        Me.lblFYellow.TabIndex = 0
+        '
+        'lblFOrange
+        '
+        Me.lblFOrange.BackColor = System.Drawing.Color.OrangeRed
+        Me.lblFOrange.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFOrange.Location = New System.Drawing.Point(7, 87)
+        Me.lblFOrange.Name = "lblFOrange"
+        Me.lblFOrange.Size = New System.Drawing.Size(54, 48)
+        Me.lblFOrange.TabIndex = 0
+        '
+        'lblFBack
+        '
+        Me.lblFBack.BackColor = System.Drawing.Color.Black
+        Me.lblFBack.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFBack.Location = New System.Drawing.Point(247, 30)
+        Me.lblFBack.Name = "lblFBack"
+        Me.lblFBack.Size = New System.Drawing.Size(54, 48)
+        Me.lblFBack.TabIndex = 0
+        '
+        'lblFViotet
+        '
+        Me.lblFViotet.BackColor = System.Drawing.Color.BlueViolet
+        Me.lblFViotet.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFViotet.Location = New System.Drawing.Point(187, 30)
+        Me.lblFViotet.Name = "lblFViotet"
+        Me.lblFViotet.Size = New System.Drawing.Size(54, 48)
+        Me.lblFViotet.TabIndex = 0
+        '
+        'lblFGreen
+        '
+        Me.lblFGreen.BackColor = System.Drawing.Color.Green
+        Me.lblFGreen.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFGreen.Location = New System.Drawing.Point(127, 30)
+        Me.lblFGreen.Name = "lblFGreen"
+        Me.lblFGreen.Size = New System.Drawing.Size(54, 48)
+        Me.lblFGreen.TabIndex = 0
+        '
+        'lblFBlue
+        '
+        Me.lblFBlue.BackColor = System.Drawing.Color.Blue
+        Me.lblFBlue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFBlue.Location = New System.Drawing.Point(67, 30)
+        Me.lblFBlue.Name = "lblFBlue"
+        Me.lblFBlue.Size = New System.Drawing.Size(54, 48)
+        Me.lblFBlue.TabIndex = 0
+        '
+        'lblFRad
+        '
+        Me.lblFRad.BackColor = System.Drawing.Color.Red
+        Me.lblFRad.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFRad.Location = New System.Drawing.Point(7, 30)
+        Me.lblFRad.Name = "lblFRad"
+        Me.lblFRad.Size = New System.Drawing.Size(54, 48)
+        Me.lblFRad.TabIndex = 0
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.lblBOrange)
@@ -136,113 +227,23 @@ Partial Class FrmColor
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "BgColor"
         '
-        'Label1
+        'lblBOrange
         '
-        Me.Label1.Font = New System.Drawing.Font("Minion Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(32, 66)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 23)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "กำหนดตัวเลข"
+        Me.lblBOrange.BackColor = System.Drawing.Color.Orange
+        Me.lblBOrange.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblBOrange.Location = New System.Drawing.Point(7, 87)
+        Me.lblBOrange.Name = "lblBOrange"
+        Me.lblBOrange.Size = New System.Drawing.Size(55, 48)
+        Me.lblBOrange.TabIndex = 1
         '
-        'Label2
+        'lblBSky
         '
-        Me.Label2.Font = New System.Drawing.Font("Minion Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(409, 172)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(104, 23)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "ขนาดฟอนต์"
-        '
-        'lblFRad
-        '
-        Me.lblFRad.BackColor = System.Drawing.Color.Red
-        Me.lblFRad.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFRad.Location = New System.Drawing.Point(7, 30)
-        Me.lblFRad.Name = "lblFRad"
-        Me.lblFRad.Size = New System.Drawing.Size(54, 48)
-        Me.lblFRad.TabIndex = 0
-        '
-        'lblFBlue
-        '
-        Me.lblFBlue.BackColor = System.Drawing.Color.Blue
-        Me.lblFBlue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFBlue.Location = New System.Drawing.Point(67, 30)
-        Me.lblFBlue.Name = "lblFBlue"
-        Me.lblFBlue.Size = New System.Drawing.Size(54, 48)
-        Me.lblFBlue.TabIndex = 0
-        '
-        'lblFGreen
-        '
-        Me.lblFGreen.BackColor = System.Drawing.Color.Green
-        Me.lblFGreen.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFGreen.Location = New System.Drawing.Point(127, 30)
-        Me.lblFGreen.Name = "lblFGreen"
-        Me.lblFGreen.Size = New System.Drawing.Size(54, 48)
-        Me.lblFGreen.TabIndex = 0
-        '
-        'lblFViotet
-        '
-        Me.lblFViotet.BackColor = System.Drawing.Color.BlueViolet
-        Me.lblFViotet.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFViotet.Location = New System.Drawing.Point(187, 30)
-        Me.lblFViotet.Name = "lblFViotet"
-        Me.lblFViotet.Size = New System.Drawing.Size(54, 48)
-        Me.lblFViotet.TabIndex = 0
-        '
-        'lblFBack
-        '
-        Me.lblFBack.BackColor = System.Drawing.Color.Black
-        Me.lblFBack.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFBack.Location = New System.Drawing.Point(247, 30)
-        Me.lblFBack.Name = "lblFBack"
-        Me.lblFBack.Size = New System.Drawing.Size(54, 48)
-        Me.lblFBack.TabIndex = 0
-        '
-        'lblFOrange
-        '
-        Me.lblFOrange.BackColor = System.Drawing.Color.OrangeRed
-        Me.lblFOrange.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFOrange.Location = New System.Drawing.Point(7, 87)
-        Me.lblFOrange.Name = "lblFOrange"
-        Me.lblFOrange.Size = New System.Drawing.Size(54, 48)
-        Me.lblFOrange.TabIndex = 0
-        '
-        'lblFYellow
-        '
-        Me.lblFYellow.BackColor = System.Drawing.Color.Yellow
-        Me.lblFYellow.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFYellow.Location = New System.Drawing.Point(67, 87)
-        Me.lblFYellow.Name = "lblFYellow"
-        Me.lblFYellow.Size = New System.Drawing.Size(54, 48)
-        Me.lblFYellow.TabIndex = 0
-        '
-        'lblFBrown
-        '
-        Me.lblFBrown.BackColor = System.Drawing.Color.Brown
-        Me.lblFBrown.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFBrown.Location = New System.Drawing.Point(127, 87)
-        Me.lblFBrown.Name = "lblFBrown"
-        Me.lblFBrown.Size = New System.Drawing.Size(54, 48)
-        Me.lblFBrown.TabIndex = 0
-        '
-        'lblFwhite
-        '
-        Me.lblFwhite.BackColor = System.Drawing.Color.White
-        Me.lblFwhite.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFwhite.Location = New System.Drawing.Point(187, 87)
-        Me.lblFwhite.Name = "lblFwhite"
-        Me.lblFwhite.Size = New System.Drawing.Size(54, 48)
-        Me.lblFwhite.TabIndex = 0
-        '
-        'lblFSky
-        '
-        Me.lblFSky.BackColor = System.Drawing.Color.SkyBlue
-        Me.lblFSky.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFSky.Location = New System.Drawing.Point(247, 87)
-        Me.lblFSky.Name = "lblFSky"
-        Me.lblFSky.Size = New System.Drawing.Size(54, 48)
-        Me.lblFSky.TabIndex = 0
+        Me.lblBSky.BackColor = System.Drawing.Color.SkyBlue
+        Me.lblBSky.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblBSky.Location = New System.Drawing.Point(248, 87)
+        Me.lblBSky.Name = "lblBSky"
+        Me.lblBSky.Size = New System.Drawing.Size(54, 48)
+        Me.lblBSky.TabIndex = 0
         '
         'lblBRad
         '
@@ -253,6 +254,15 @@ Partial Class FrmColor
         Me.lblBRad.Size = New System.Drawing.Size(54, 48)
         Me.lblBRad.TabIndex = 0
         '
+        'lblBwhie
+        '
+        Me.lblBwhie.BackColor = System.Drawing.Color.White
+        Me.lblBwhie.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblBwhie.Location = New System.Drawing.Point(188, 87)
+        Me.lblBwhie.Name = "lblBwhie"
+        Me.lblBwhie.Size = New System.Drawing.Size(54, 48)
+        Me.lblBwhie.TabIndex = 0
+        '
         'lblBBlue
         '
         Me.lblBBlue.BackColor = System.Drawing.Color.Blue
@@ -262,6 +272,15 @@ Partial Class FrmColor
         Me.lblBBlue.Size = New System.Drawing.Size(54, 48)
         Me.lblBBlue.TabIndex = 0
         '
+        'lblBBrown
+        '
+        Me.lblBBrown.BackColor = System.Drawing.Color.Brown
+        Me.lblBBrown.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblBBrown.Location = New System.Drawing.Point(128, 87)
+        Me.lblBBrown.Name = "lblBBrown"
+        Me.lblBBrown.Size = New System.Drawing.Size(54, 48)
+        Me.lblBBrown.TabIndex = 0
+        '
         'lblBGreen
         '
         Me.lblBGreen.BackColor = System.Drawing.Color.Green
@@ -270,6 +289,15 @@ Partial Class FrmColor
         Me.lblBGreen.Name = "lblBGreen"
         Me.lblBGreen.Size = New System.Drawing.Size(54, 48)
         Me.lblBGreen.TabIndex = 0
+        '
+        'lblBYellow
+        '
+        Me.lblBYellow.BackColor = System.Drawing.Color.Yellow
+        Me.lblBYellow.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblBYellow.Location = New System.Drawing.Point(68, 87)
+        Me.lblBYellow.Name = "lblBYellow"
+        Me.lblBYellow.Size = New System.Drawing.Size(54, 48)
+        Me.lblBYellow.TabIndex = 0
         '
         'lblBViolet
         '
@@ -289,50 +317,23 @@ Partial Class FrmColor
         Me.lblBBack.Size = New System.Drawing.Size(54, 48)
         Me.lblBBack.TabIndex = 0
         '
-        'lblBYellow
+        'Label1
         '
-        Me.lblBYellow.BackColor = System.Drawing.Color.Yellow
-        Me.lblBYellow.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblBYellow.Location = New System.Drawing.Point(68, 87)
-        Me.lblBYellow.Name = "lblBYellow"
-        Me.lblBYellow.Size = New System.Drawing.Size(54, 48)
-        Me.lblBYellow.TabIndex = 0
+        Me.Label1.Font = New System.Drawing.Font("Minion Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(32, 66)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(114, 23)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "กำหนดตัวเลข"
         '
-        'lblBBrown
+        'Label2
         '
-        Me.lblBBrown.BackColor = System.Drawing.Color.Brown
-        Me.lblBBrown.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblBBrown.Location = New System.Drawing.Point(128, 87)
-        Me.lblBBrown.Name = "lblBBrown"
-        Me.lblBBrown.Size = New System.Drawing.Size(54, 48)
-        Me.lblBBrown.TabIndex = 0
-        '
-        'lblBwhie
-        '
-        Me.lblBwhie.BackColor = System.Drawing.Color.White
-        Me.lblBwhie.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblBwhie.Location = New System.Drawing.Point(188, 87)
-        Me.lblBwhie.Name = "lblBwhie"
-        Me.lblBwhie.Size = New System.Drawing.Size(54, 48)
-        Me.lblBwhie.TabIndex = 0
-        '
-        'lblBSky
-        '
-        Me.lblBSky.BackColor = System.Drawing.Color.SkyBlue
-        Me.lblBSky.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblBSky.Location = New System.Drawing.Point(248, 87)
-        Me.lblBSky.Name = "lblBSky"
-        Me.lblBSky.Size = New System.Drawing.Size(54, 48)
-        Me.lblBSky.TabIndex = 0
-        '
-        'lblBOrange
-        '
-        Me.lblBOrange.BackColor = System.Drawing.Color.Orange
-        Me.lblBOrange.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblBOrange.Location = New System.Drawing.Point(7, 87)
-        Me.lblBOrange.Name = "lblBOrange"
-        Me.lblBOrange.Size = New System.Drawing.Size(55, 48)
-        Me.lblBOrange.TabIndex = 1
+        Me.Label2.Font = New System.Drawing.Font("Minion Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(409, 172)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(104, 23)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "ขนาดฟอนต์"
         '
         'FrmColor
         '
