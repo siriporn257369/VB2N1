@@ -103,10 +103,28 @@
     <Compile Include="frmLab5.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmPractice1.Designer.vb">
+      <DependentUpon>FrmPractice1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPractice1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPractice2.Designer.vb">
+      <DependentUpon>FrmPractice2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPractice2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPractice4.Designer.vb">
       <DependentUpon>frmPractice4.vb</DependentUpon>
     </Compile>
     <Compile Include="frmPractice4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPractice5.Designer.vb">
+      <DependentUpon>frmPractice5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice5.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -141,8 +159,17 @@
     <EmbeddedResource Include="frmLab5.resx">
       <DependentUpon>frmLab5.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPractice1.resx">
+      <DependentUpon>FrmPractice1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPractice2.resx">
+      <DependentUpon>FrmPractice2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPractice4.resx">
       <DependentUpon>frmPractice4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice5.resx">
+      <DependentUpon>frmPractice5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

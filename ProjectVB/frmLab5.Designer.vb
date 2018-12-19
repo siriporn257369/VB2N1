@@ -212,7 +212,7 @@ Partial Class frmLab5
         Me.txtProdut.Multiline = True
         Me.txtProdut.Name = "txtProdut"
         Me.txtProdut.Size = New System.Drawing.Size(250, 29)
-        Me.txtProdut.TabIndex = 3
+        Me.txtProdut.TabIndex = 0
         '
         'txtPrice
         '
@@ -221,7 +221,7 @@ Partial Class frmLab5
         Me.txtPrice.Multiline = True
         Me.txtPrice.Name = "txtPrice"
         Me.txtPrice.Size = New System.Drawing.Size(250, 29)
-        Me.txtPrice.TabIndex = 3
+        Me.txtPrice.TabIndex = 1
         '
         'txtUnit
         '
@@ -230,7 +230,7 @@ Partial Class frmLab5
         Me.txtUnit.Multiline = True
         Me.txtUnit.Name = "txtUnit"
         Me.txtUnit.Size = New System.Drawing.Size(250, 29)
-        Me.txtUnit.TabIndex = 3
+        Me.txtUnit.TabIndex = 2
         '
         'lblTotal
         '
@@ -276,7 +276,7 @@ Partial Class frmLab5
         Me.btnCalculate.Location = New System.Drawing.Point(355, 428)
         Me.btnCalculate.Name = "btnCalculate"
         Me.btnCalculate.Size = New System.Drawing.Size(75, 36)
-        Me.btnCalculate.TabIndex = 5
+        Me.btnCalculate.TabIndex = 3
         Me.btnCalculate.Text = "คำนวณ"
         Me.btnCalculate.UseVisualStyleBackColor = False
         '
