@@ -115,6 +115,12 @@
     <Compile Include="FrmPractice2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPractice3.Designer.vb">
+      <DependentUpon>frmPractice3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPractice4.Designer.vb">
       <DependentUpon>frmPractice4.vb</DependentUpon>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPractice2.resx">
       <DependentUpon>FrmPractice2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice3.resx">
+      <DependentUpon>frmPractice3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPractice4.resx">
       <DependentUpon>frmPractice4.vb</DependentUpon>
