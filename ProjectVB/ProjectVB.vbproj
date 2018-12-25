@@ -109,6 +109,12 @@
     <Compile Include="frmLab5.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmLab7.Designer.vb">
+      <DependentUpon>frmLab7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab7.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmPractice1.Designer.vb">
       <DependentUpon>FrmPractice1.vb</DependentUpon>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLab5.resx">
       <DependentUpon>frmLab5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab7.resx">
+      <DependentUpon>frmLab7.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPractice1.resx">
       <DependentUpon>FrmPractice1.vb</DependentUpon>

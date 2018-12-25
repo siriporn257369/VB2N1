@@ -9,6 +9,7 @@
 
     Private Sub frmJob6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         total = total + Val(lblFree1.Text) + Val(lblFree2.Text) + Val(lblFree3.Text)
+        lblStartPrice.Text = startPrice
 
         GroupBox1.Enabled = False
         GroupBox2.Enabled = False
