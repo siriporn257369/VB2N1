@@ -52,4 +52,9 @@
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         Me.Close()
     End Sub
+
+    Private Sub แบบฝกปฏบต6ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles แบบฝกปฏบต6ToolStripMenuItem.Click
+        Dim fp6 As frmPractice6 = New frmPractice6
+        fp6.Show()
+    End Sub
 End Class

@@ -97,6 +97,12 @@
     <Compile Include="frmJob4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmJob6.Designer.vb">
+      <DependentUpon>frmJob6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob6.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLab5.Designer.vb">
       <DependentUpon>frmLab5.vb</DependentUpon>
     </Compile>
@@ -133,6 +139,12 @@
     <Compile Include="frmPractice5.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPractice6.Designer.vb">
+      <DependentUpon>frmPractice6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice6.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -162,6 +174,9 @@
     <EmbeddedResource Include="frmJob4.resx">
       <DependentUpon>frmJob4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmJob6.resx">
+      <DependentUpon>frmJob6.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLab5.resx">
       <DependentUpon>frmLab5.vb</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPractice5.resx">
       <DependentUpon>frmPractice5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice6.resx">
+      <DependentUpon>frmPractice6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
