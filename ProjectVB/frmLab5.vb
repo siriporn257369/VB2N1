@@ -1,12 +1,5 @@
 ﻿Public Class frmLab5
     Dim decTotal, decDiscount, decNet, decCredi As Decimal
-
-    Private Sub radMember_CheckedChanged(sender As Object, e As EventArgs) Handles radMember.CheckedChanged
-    End Sub
-
-    Private Sub radOther_CheckedChanged(sender As Object, e As EventArgs) Handles radOther.CheckedChanged
-    End Sub
-
     Private Sub radPaid_CheckedChanged(sender As Object, e As EventArgs) Handles radPaid.CheckedChanged
         lblDiscount.Text = ""
         lblPaid.Text = ""
@@ -49,7 +42,9 @@
     Private Sub txtUnit_TextChanged(sender As Object, e As EventArgs) Handles txtUnit.TextChanged
         lblTotal.Text = txtUnit.Text * txtPrice.Text
     End Sub
-
+    Private Sub txtPrice_TextChanged(sender As Object, e As EventArgs) Handles txtPrice.TextChanged
+        lblTotal.Text = txtPrice.Text
+    End Sub
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
         Dim p As String = txtProdut.Text
         Dim pr As Integer = Val(txtPrice.Text)
@@ -99,11 +94,6 @@
 
 
         End If
-
-
     End Sub
 
-    Private Sub txtPrice_TextChanged(sender As Object, e As EventArgs) Handles txtPrice.TextChanged
-        lblTotal.Text = txtPrice.Text
-    End Sub
 End Class
