@@ -3,7 +3,6 @@
     Dim strId, strName As String
     Dim intAmount As Integer
     Dim dblPcrie, dblTotal, dblDiscount, dblNet As Double
-
     Private Sub radProCredit_Click(sender As Object, e As EventArgs) Handles radProCredit.Click
         lblProNet.Text = lblProTotal.Text
     End Sub

@@ -103,6 +103,12 @@
     <Compile Include="frmJob6.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmLab9.Designer.vb">
+      <DependentUpon>frmLab9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab9.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLab5.Designer.vb">
       <DependentUpon>frmLab5.vb</DependentUpon>
     </Compile>
@@ -115,10 +121,22 @@
     <Compile Include="frmLab7.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmLab8.Designer.vb">
+      <DependentUpon>frmLab8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab8.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmPractice1.Designer.vb">
       <DependentUpon>FrmPractice1.vb</DependentUpon>
     </Compile>
     <Compile Include="FrmPractice1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPractice9.Designer.vb">
+      <DependentUpon>frmPractice9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice9.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPractice2.Designer.vb">
@@ -157,6 +175,12 @@
     <Compile Include="frmPractice7.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPractice8.Designer.vb">
+      <DependentUpon>frmPractice8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPractice8.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -189,14 +213,23 @@
     <EmbeddedResource Include="frmJob6.resx">
       <DependentUpon>frmJob6.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLab9.resx">
+      <DependentUpon>frmLab9.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLab5.resx">
       <DependentUpon>frmLab5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLab7.resx">
       <DependentUpon>frmLab7.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLab8.resx">
+      <DependentUpon>frmLab8.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPractice1.resx">
       <DependentUpon>FrmPractice1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice9.resx">
+      <DependentUpon>frmPractice9.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPractice2.resx">
       <DependentUpon>FrmPractice2.vb</DependentUpon>
@@ -215,6 +248,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPractice7.resx">
       <DependentUpon>frmPractice7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPractice8.resx">
+      <DependentUpon>frmPractice8.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

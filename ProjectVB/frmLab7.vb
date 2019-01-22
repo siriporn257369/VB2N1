@@ -7,7 +7,6 @@
             btnAdd.Enabled = True
         Else
             btnAdd.Enabled = False
-
         End If
     End Sub
 
@@ -19,51 +18,73 @@
 
     Private Sub btnMove_Click(sender As Object, e As EventArgs) Handles btnMove.Click
         Dim t As Integer = lstAdd.SelectedIndex
-        cboOutput.Items.Add(lstAdd.SelectedItem)
-        cboOutput.SelectedIndex = cboOutput.Items.Count - 1
-        lstAdd.Items.RemoveAt(t)
+        If lstAdd.Items.Count = 0 Then
+            MessageBox.Show("เออเร่อ")
+        Else
+            cboOutput.Items.Add(lstAdd.SelectedItem)
+            cboOutput.SelectedIndex = cboOutput.Items.Count - 1
+            lstAdd.Items.RemoveAt(t)
+            If lstAdd.Items.Count <> 0 Then
+                If lstAdd.Items.Count <= t Then
+                    lstAdd.SelectedIndex = lstAdd.Items.Count - 1
+                Else
+                    lstAdd.SelectedIndex = t
 
-        If lstAdd.Items.Count <> 0 Then
-            If lstAdd.Items.Count <= t Then
-                lstAdd.SelectedIndex = lstAdd.Items.Count - 1
-            Else
-                lstAdd.SelectedIndex = t
-
+                End If
             End If
+
+
+
 
         End If
     End Sub
 
     Private Sub btnMoveAll_Click(sender As Object, e As EventArgs) Handles btnMoveAll.Click
         Dim r As Integer
-        For r = 0 To lstAdd.Items.Count - 1
-            cboOutput.Items.Add(lstAdd.Items(r))
-        Next
-        lstAdd.Items.Clear()
+        If lstAdd.Items.Count = 0 Then
+            MessageBox.Show("เออเร่อ")
+        Else
+            For r = 0 To lstAdd.Items.Count - 1
+                cboOutput.Items.Add(lstAdd.Items(r))
+            Next
+            lstAdd.Items.Clear()
+        End If
+
+
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Dim t As Integer = cboOutput.SelectedIndex
-        lstAdd.Items.Add(cboOutput.SelectedItem)
-        cboOutput.SelectedIndex = cboOutput.Items.Count - 1
-        cboOutput.Items.RemoveAt(t)
+        If cboOutput.Items.Count = 0 Then
+            MessageBox.Show("เออเร่อ")
+        Else
+            lstAdd.Items.Add(cboOutput.SelectedItem)
+            cboOutput.SelectedIndex = cboOutput.Items.Count - 1
+            cboOutput.Items.RemoveAt(t)
 
-        If cboOutput.Items.Count <> 0 Then
-            If cboOutput.Items.Count >= t Then
-                cboOutput.SelectedIndex = cboOutput.Items.Count - 1
-            Else
-                cboOutput.SelectedIndex = t
+            If cboOutput.Items.Count <> 0 Then
+                If cboOutput.Items.Count >= t Then
+                    cboOutput.SelectedIndex = cboOutput.Items.Count - 1
+                Else
+                    cboOutput.SelectedIndex = t
 
+                End If
             End If
+
         End If
     End Sub
 
     Private Sub btnBackAll_Click(sender As Object, e As EventArgs) Handles btnBackAll.Click
         Dim r As Integer
-        For r = 0 To cboOutput.Items.Count - 1
-            lstAdd.Items.Add(cboOutput.Items(r))
-        Next
-        cboOutput.Items.Clear()
+        If cboOutput.Items.Count = 0 Then
+            MessageBox.Show("เออเร่อ")
+        Else
+            For r = 0 To cboOutput.Items.Count - 1
+                lstAdd.Items.Add(cboOutput.Items(r))
+            Next
+            cboOutput.Items.Clear()
+        End If
+
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
