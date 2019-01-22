@@ -50,7 +50,7 @@ Partial Class frmLab10
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(40, 81)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(146, 31)
@@ -59,7 +59,7 @@ Partial Class frmLab10
         '
         'Label2
         '
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(299, 129)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(182, 23)
@@ -68,7 +68,7 @@ Partial Class frmLab10
         '
         'Label3
         '
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(299, 172)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(182, 23)
@@ -77,7 +77,7 @@ Partial Class frmLab10
         '
         'Label4
         '
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(299, 221)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(182, 23)
@@ -86,7 +86,7 @@ Partial Class frmLab10
         '
         'Label5
         '
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(299, 310)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(162, 33)
@@ -95,7 +95,7 @@ Partial Class frmLab10
         '
         'Label6
         '
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(299, 359)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(146, 23)
@@ -104,7 +104,7 @@ Partial Class frmLab10
         '
         'Label7
         '
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(44, 428)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(146, 23)
@@ -113,7 +113,7 @@ Partial Class frmLab10
         '
         'Label8
         '
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(44, 342)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(146, 23)
@@ -122,7 +122,7 @@ Partial Class frmLab10
         '
         'lstData
         '
-        Me.lstData.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lstData.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstData.FormattingEnabled = True
         Me.lstData.ItemHeight = 31
         Me.lstData.Location = New System.Drawing.Point(43, 128)
@@ -133,59 +133,59 @@ Partial Class frmLab10
         'lblSumA
         '
         Me.lblSumA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblSumA.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSumA.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSumA.Location = New System.Drawing.Point(487, 128)
         Me.lblSumA.Name = "lblSumA"
         Me.lblSumA.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.lblSumA.Size = New System.Drawing.Size(145, 23)
+        Me.lblSumA.Size = New System.Drawing.Size(145, 32)
         Me.lblSumA.TabIndex = 2
         Me.lblSumA.Text = "0"
         '
         'lblSumB
         '
         Me.lblSumB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblSumB.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSumB.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSumB.Location = New System.Drawing.Point(487, 171)
         Me.lblSumB.Name = "lblSumB"
         Me.lblSumB.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.lblSumB.Size = New System.Drawing.Size(145, 23)
+        Me.lblSumB.Size = New System.Drawing.Size(145, 32)
         Me.lblSumB.TabIndex = 2
         Me.lblSumB.Text = "0"
         '
         'lblSumC
         '
         Me.lblSumC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblSumC.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSumC.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSumC.Location = New System.Drawing.Point(487, 219)
         Me.lblSumC.Name = "lblSumC"
         Me.lblSumC.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.lblSumC.Size = New System.Drawing.Size(145, 23)
+        Me.lblSumC.Size = New System.Drawing.Size(145, 32)
         Me.lblSumC.TabIndex = 2
         Me.lblSumC.Text = "0"
         '
         'lblMaxSaleName
         '
         Me.lblMaxSaleName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblMaxSaleName.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMaxSaleName.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMaxSaleName.Location = New System.Drawing.Point(487, 308)
         Me.lblMaxSaleName.Name = "lblMaxSaleName"
-        Me.lblMaxSaleName.Size = New System.Drawing.Size(145, 23)
+        Me.lblMaxSaleName.Size = New System.Drawing.Size(145, 32)
         Me.lblMaxSaleName.TabIndex = 2
         '
         'lblMaxSaleAmount
         '
         Me.lblMaxSaleAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblMaxSaleAmount.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMaxSaleAmount.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMaxSaleAmount.Location = New System.Drawing.Point(487, 358)
         Me.lblMaxSaleAmount.Name = "lblMaxSaleAmount"
         Me.lblMaxSaleAmount.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.lblMaxSaleAmount.Size = New System.Drawing.Size(145, 23)
+        Me.lblMaxSaleAmount.Size = New System.Drawing.Size(145, 32)
         Me.lblMaxSaleAmount.TabIndex = 2
         Me.lblMaxSaleAmount.Text = "0"
         '
         'txtSaleName
         '
-        Me.txtSaleName.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSaleName.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSaleName.Location = New System.Drawing.Point(47, 459)
         Me.txtSaleName.Multiline = True
         Me.txtSaleName.Name = "txtSaleName"
@@ -194,7 +194,7 @@ Partial Class frmLab10
         '
         'txtSaleA
         '
-        Me.txtSaleA.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSaleA.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSaleA.Location = New System.Drawing.Point(302, 459)
         Me.txtSaleA.Multiline = True
         Me.txtSaleA.Name = "txtSaleA"
@@ -203,7 +203,7 @@ Partial Class frmLab10
         '
         'txtSaleB
         '
-        Me.txtSaleB.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSaleB.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSaleB.Location = New System.Drawing.Point(430, 459)
         Me.txtSaleB.Multiline = True
         Me.txtSaleB.Name = "txtSaleB"
@@ -212,7 +212,7 @@ Partial Class frmLab10
         '
         'txtSaleC
         '
-        Me.txtSaleC.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSaleC.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSaleC.Location = New System.Drawing.Point(556, 459)
         Me.txtSaleC.Multiline = True
         Me.txtSaleC.Name = "txtSaleC"
@@ -221,7 +221,7 @@ Partial Class frmLab10
         '
         'cboIndex
         '
-        Me.cboIndex.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboIndex.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboIndex.FormattingEnabled = True
         Me.cboIndex.Location = New System.Drawing.Point(50, 368)
         Me.cboIndex.Name = "cboIndex"
@@ -231,36 +231,36 @@ Partial Class frmLab10
         'Label14
         '
         Me.Label14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(295, 433)
+        Me.Label14.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(293, 415)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(137, 23)
+        Me.Label14.Size = New System.Drawing.Size(137, 36)
         Me.Label14.TabIndex = 0
         Me.Label14.Text = "ยอดขาย A"
         '
         'Label15
         '
         Me.Label15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(427, 433)
+        Me.Label15.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(425, 415)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(124, 23)
+        Me.Label15.Size = New System.Drawing.Size(124, 36)
         Me.Label15.TabIndex = 0
         Me.Label15.Text = "ยอดขาย B"
         '
         'Label16
         '
         Me.Label16.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(550, 433)
+        Me.Label16.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(548, 415)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(115, 23)
+        Me.Label16.Size = New System.Drawing.Size(115, 36)
         Me.Label16.TabIndex = 0
         Me.Label16.Text = "ยอดขาย C"
         '
         'Label17
         '
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Uighur", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(212, 23)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(275, 23)
@@ -269,6 +269,7 @@ Partial Class frmLab10
         '
         'btnAdd
         '
+        Me.btnAdd.Font = New System.Drawing.Font("Angsana New", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAdd.Location = New System.Drawing.Point(586, 507)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(92, 37)

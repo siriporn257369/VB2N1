@@ -19,7 +19,7 @@
     Private Sub btnMove_Click(sender As Object, e As EventArgs) Handles btnMove.Click
         Dim t As Integer = lstAdd.SelectedIndex
         If lstAdd.Items.Count = 0 Then
-            MessageBox.Show("เออเร่อ")
+            MessageBox.Show("ERROR")
         Else
             cboOutput.Items.Add(lstAdd.SelectedItem)
             cboOutput.SelectedIndex = cboOutput.Items.Count - 1
@@ -42,7 +42,7 @@
     Private Sub btnMoveAll_Click(sender As Object, e As EventArgs) Handles btnMoveAll.Click
         Dim r As Integer
         If lstAdd.Items.Count = 0 Then
-            MessageBox.Show("เออเร่อ")
+            MessageBox.Show("ERROR")
         Else
             For r = 0 To lstAdd.Items.Count - 1
                 cboOutput.Items.Add(lstAdd.Items(r))
@@ -56,7 +56,7 @@
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Dim t As Integer = cboOutput.SelectedIndex
         If cboOutput.Items.Count = 0 Then
-            MessageBox.Show("เออเร่อ")
+            MessageBox.Show("ERROR")
         Else
             lstAdd.Items.Add(cboOutput.SelectedItem)
             cboOutput.SelectedIndex = cboOutput.Items.Count - 1
@@ -77,7 +77,7 @@
     Private Sub btnBackAll_Click(sender As Object, e As EventArgs) Handles btnBackAll.Click
         Dim r As Integer
         If cboOutput.Items.Count = 0 Then
-            MessageBox.Show("เออเร่อ")
+            MessageBox.Show("ERROR")
         Else
             For r = 0 To cboOutput.Items.Count - 1
                 lstAdd.Items.Add(cboOutput.Items(r))
